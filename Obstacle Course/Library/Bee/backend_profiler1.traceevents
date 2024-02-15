@@ -1,0 +1,785 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1707914090159823, "dur":865, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914090160694, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1707914090160793, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1707914090160811, "dur":319, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1707914090161146, "dur":753, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914090161899, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118137741, "dur":508, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138249, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138260, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138262, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138279, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138280, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138286, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138287, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138292, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138293, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138298, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138300, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138311, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138312, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138317, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138319, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138326, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138327, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138333, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138334, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138344, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138345, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138351, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138353, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138360, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138376, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118138385, "dur":5150, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":0, "ts":1707914118143536, "dur":1448, "ph":"X", "name": "Tundra",  "args": { "detail":"SaveScanCache" }}
+,{ "pid":12345, "tid":1, "ts":1707914090161573, "dur":509, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090162086, "dur":1236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090163322, "dur":6091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090169414, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t1dwy9v5qnh50.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090169419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090170772, "dur":449, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t1dwy9v5qnh50.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090171223, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":1, "ts":1707914090171226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090171231, "dur":438, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":1, "ts":1707914090171672, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":1, "ts":1707914090171675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090172124, "dur":436, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":1, "ts":1707914090172564, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj35.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090172568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090172573, "dur":396, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj35.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090172971, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8nltbt5faf5u2.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090172975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090172980, "dur":335, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8nltbt5faf5u2.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090173316, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q4.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090173320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090173324, "dur":392, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q4.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090173717, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o4.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090173721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090173726, "dur":465, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o4.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090174192, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/qvxwfakh9wz30.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090174196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090174200, "dur":551, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/qvxwfakh9wz30.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090174752, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg3.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090174756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090174760, "dur":447, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg3.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090175208, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np3.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090175228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090175232, "dur":682, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np3.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090175915, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5uccr06ee9s61.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090175919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090175924, "dur":259, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5uccr06ee9s61.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090176184, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/41lcy0v00ida0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090176188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090176199, "dur":432, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/41lcy0v00ida0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090176632, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c0b1biy3i47y0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090176635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090176639, "dur":506, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c0b1biy3i47y0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090177146, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/5362588684057008505.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090177157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090177597, "dur":962, "ph":"X", "name": "WriteResponseFile",  "args": { "detail":"Library/Bee/artifacts/rsp/5362588684057008505.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1707914090178560, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/unity-logo-dark.png" }}
+,{ "pid":12345, "tid":1, "ts":1707914090178593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090178721, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/unity-logo-dark.png" }}
+,{ "pid":12345, "tid":1, "ts":1707914090182057, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":1, "ts":1707914090182103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090182108, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":1, "ts":1707914090183367, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"PreprocessJS F:/unity/UFO ESCAPE/index.html" }}
+,{ "pid":12345, "tid":1, "ts":1707914090183383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090183533, "dur":185907, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"F:/unity/UFO ESCAPE/index.html" }}
+,{ "pid":12345, "tid":1, "ts":1707914090369475, "dur":168563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/qj7n23nl9nd4.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914090538055, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914090538074, "dur":3343177, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/qj7n23nl9nd4.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914093881282, "dur":479370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/u3h1q3gvfgp2.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914094360659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914094360670, "dur":3105698, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/u3h1q3gvfgp2.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914097466389, "dur":57915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/2mdpv8ruomba.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914097524311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914097524349, "dur":786118, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/2mdpv8ruomba.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914098310497, "dur":18190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/e2bgqxmwt34s.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914098328695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914098328706, "dur":1151457, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/e2bgqxmwt34s.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914099480192, "dur":11619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1c7otk62vi8y.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914099491819, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914099491834, "dur":788110, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1c7otk62vi8y.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914100279977, "dur":81626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/asdxokrnaiid.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914100361613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914100361624, "dur":2054543, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/asdxokrnaiid.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914102416184, "dur":12995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zgt95zvb92y5.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914102429187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914102429197, "dur":1548241, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zgt95zvb92y5.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914103977465, "dur":202208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/rcnn145sy5t9.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914104179682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914104179695, "dur":1879629, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/rcnn145sy5t9.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914106059344, "dur":23124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/r25i0fbdbrvi.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914106082475, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914106082485, "dur":1844268, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/r25i0fbdbrvi.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914107926788, "dur":24760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/sbqimywreuy3.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914107951558, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914107951572, "dur":2235290, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/sbqimywreuy3.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914110186895, "dur":78424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/l96vtk8w4ivf.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914110265330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914110265344, "dur":1694451, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/l96vtk8w4ivf.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914111959822, "dur":23173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/77onm6akhp35.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914111983003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914111983014, "dur":981763, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/77onm6akhp35.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914112964813, "dur":30535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/teyp2owssmoo.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914112995356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707914112995368, "dur":592629, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/teyp2owssmoo.o" }}
+,{ "pid":12345, "tid":1, "ts":1707914113588021, "dur":4549787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914090161493, "dur":437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914090161933, "dur":1143, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914090163077, "dur":6340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914090169418, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1707914090169422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914090183244, "dur":182, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1707914090183428, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/webgl-logo.png" }}
+,{ "pid":12345, "tid":2, "ts":1707914090183470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914090183473, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/webgl-logo.png" }}
+,{ "pid":12345, "tid":2, "ts":1707914090184889, "dur":414639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/7rakwhejlie4.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914090599535, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914090599652, "dur":3364582, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/7rakwhejlie4.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914093964272, "dur":212789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/rk7ipvirj087.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914094177069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914094177079, "dur":4619354, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/rk7ipvirj087.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914098796454, "dur":81295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/4z5znpsmhu0k.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914098877759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914098877772, "dur":1628735, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/4z5znpsmhu0k.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914100506537, "dur":21083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1o88uxdw03zp.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914100527629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914100527642, "dur":1516681, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1o88uxdw03zp.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914102044342, "dur":59374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/k6er7vyh7u45.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914102103722, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914102103734, "dur":848517, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/k6er7vyh7u45.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914102952268, "dur":167325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ash7klh1u1kj.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914103119601, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914103119614, "dur":2699552, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ash7klh1u1kj.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914105819190, "dur":110501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zhan7n9xamec.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914105929701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914105929713, "dur":615041, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zhan7n9xamec.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914106544773, "dur":15920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/sjt5rfl6v61i.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914106560733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914106560745, "dur":625934, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/sjt5rfl6v61i.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914107186708, "dur":18801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5e2nqwc68bww.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914107205517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914107205528, "dur":1188360, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5e2nqwc68bww.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914108393922, "dur":104426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mfisk9fp9y6v.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914108498358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914108498387, "dur":2302621, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mfisk9fp9y6v.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914110801032, "dur":82962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1ung1hyca1if.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914110884005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914110884020, "dur":632902, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1ung1hyca1if.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914111516940, "dur":52607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/tz9077vq39un.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914111569556, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914111569633, "dur":1345673, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/tz9077vq39un.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914112915339, "dur":14345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/0fq7f0pe0hu9.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914112929692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707914112929704, "dur":587720, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/0fq7f0pe0hu9.o" }}
+,{ "pid":12345, "tid":2, "ts":1707914113517452, "dur":4620297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914090161504, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914090162024, "dur":1265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914090163289, "dur":6141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914090169431, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vmqrt8i2rhpm0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1707914090169434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914090183905, "dur":138, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vmqrt8i2rhpm0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1707914090184045, "dur":336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914090184386, "dur":288057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fwsh2evwi5vg.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914090472460, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914090472499, "dur":2082849, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fwsh2evwi5vg.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914092555377, "dur":131148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/7qt9xda4szwe.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914092686533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914092686544, "dur":1166156, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/7qt9xda4szwe.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914093852724, "dur":350043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/3x0c8amgl622.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914094202777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914094202791, "dur":2176420, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/3x0c8amgl622.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914096379229, "dur":212009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/6jxoa2icpm3o.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914096591246, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914096591260, "dur":2354238, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/6jxoa2icpm3o.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914098945526, "dur":28858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/b8i35826ubty.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914098974449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914098974463, "dur":1725073, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/b8i35826ubty.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914100699564, "dur":11308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/s3q2o06dnhgp.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914100710884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914100710896, "dur":720252, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/s3q2o06dnhgp.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914101431179, "dur":170697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z2b9gnig2ah8.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914101601884, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914101601895, "dur":2244365, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z2b9gnig2ah8.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914103846278, "dur":23418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/sqrgw8uslxjn.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914103869704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914103869715, "dur":1396398, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/sqrgw8uslxjn.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914105266156, "dur":48382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8jm0dz3vldvc.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914105314545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914105314555, "dur":2262555, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8jm0dz3vldvc.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914107577140, "dur":20744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/uqod6fo870m3.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914107597919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914107597930, "dur":1491251, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/uqod6fo870m3.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914109089225, "dur":114624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/30m68tk8s6mu.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914109203858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707914109203868, "dur":4185813, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/30m68tk8s6mu.o" }}
+,{ "pid":12345, "tid":3, "ts":1707914113389703, "dur":4748033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707914090161582, "dur":510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707914090162096, "dur":303, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707914090162400, "dur":6999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707914090169406, "dur":20283734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/hika/unity/Obstacle Course/Library/Bee/artifacts/unitylinker_ber2.traceevents" }}
+,{ "pid":12345, "tid":4, "ts":1707914110453150, "dur":236, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707914110453753, "dur":7682257, "ph":"X", "name": "UnityLinker",  "args": { "detail":"D:/hika/unity/Obstacle Course/Library/Bee/artifacts/unitylinker_ber2.traceevents" }}
+,{ "pid":12345, "tid":5, "ts":1707914090161632, "dur":476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090162108, "dur":7294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090169406, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/as7q4npco7t30.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090169416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090170675, "dur":484, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/as7q4npco7t30.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090171162, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/9n3jr430us6f0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090171167, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090171225, "dur":648, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/9n3jr430us6f0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090171875, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090171878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090171882, "dur":236, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090172119, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/o8thrnpcgign0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090172123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090172128, "dur":635, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/o8thrnpcgign0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090172765, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj33.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090172788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090172793, "dur":338, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj33.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173132, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8nltbt5faf5u1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173140, "dur":435, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8nltbt5faf5u1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173577, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173585, "dur":314, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173900, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o3.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090173909, "dur":608, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o3.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090174518, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t3n28qvn487u1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090174542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090174547, "dur":634, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t3n28qvn487u1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090175183, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090175187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090175192, "dur":464, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090175658, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/h8c4max3lxs70.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090175661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090175665, "dur":374, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/h8c4max3lxs70.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090176040, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/41lcy0v00ida2.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090176044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090176048, "dur":404, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/41lcy0v00ida2.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090176453, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/va7qhm1ad1450.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090176456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090176461, "dur":548, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/va7qhm1ad1450.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090177011, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/as7q4npco7t31.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090177015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090177019, "dur":279, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/as7q4npco7t31.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1707914090177299, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UFO ESCAPE.data.gz_6rjd.info" }}
+,{ "pid":12345, "tid":5, "ts":1707914090177302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090177604, "dur":934, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UFO ESCAPE.data.gz_6rjd.info" }}
+,{ "pid":12345, "tid":5, "ts":1707914090178539, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":5, "ts":1707914090178580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090178745, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":5, "ts":1707914090182055, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/progress-bar-empty-light.png" }}
+,{ "pid":12345, "tid":5, "ts":1707914090182097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090182102, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/progress-bar-empty-light.png" }}
+,{ "pid":12345, "tid":5, "ts":1707914090183297, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/favicon.ico" }}
+,{ "pid":12345, "tid":5, "ts":1707914090183324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090183328, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/favicon.ico" }}
+,{ "pid":12345, "tid":5, "ts":1707914090184282, "dur":105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090184388, "dur":640313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/9jr2gqvuwknl.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914090824708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914090824717, "dur":1731059, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/9jr2gqvuwknl.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914092555794, "dur":74472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z428xy1zer1e.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914092630321, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914092630334, "dur":1929333, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z428xy1zer1e.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914094559686, "dur":66535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lfnjow4zkbos.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914094626233, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914094626252, "dur":708366, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lfnjow4zkbos.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914095334639, "dur":9243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mwrjjfbdgoqa.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914095343890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914095343902, "dur":719483, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mwrjjfbdgoqa.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914096063417, "dur":24833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ciyx1caqexbx.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914096088259, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914096088272, "dur":2133460, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ciyx1caqexbx.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914098221765, "dur":96752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/6vo45wgcdhjs.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914098318525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914098318535, "dur":2134694, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/6vo45wgcdhjs.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914100453247, "dur":90252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dbspmtf5qh1d.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914100543506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914100543557, "dur":3689061, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dbspmtf5qh1d.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914104232633, "dur":119176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vmrl5lgrj1vq.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914104351817, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914104351830, "dur":635796, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vmrl5lgrj1vq.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914104987645, "dur":82683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/snkfv2vprkjq.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914105070336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914105070349, "dur":634514, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/snkfv2vprkjq.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914105704882, "dur":24290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/j8nukvpaq1sc.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914105729188, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914105729213, "dur":816742, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/j8nukvpaq1sc.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914106545985, "dur":83636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/nc6kq1qwa0xi.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914106629628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914106629640, "dur":1334147, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/nc6kq1qwa0xi.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914107963805, "dur":28219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/73pelu3hp4q3.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914107992033, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914107992045, "dur":1804158, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/73pelu3hp4q3.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914109796237, "dur":27435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lbzwpg2q6890.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914109823679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914109823694, "dur":1321764, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lbzwpg2q6890.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914111145486, "dur":11626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/oysn4lyf0mul.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914111157120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914111157161, "dur":636208, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/oysn4lyf0mul.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914111793402, "dur":13845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/gvwjalduzcsj.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914111807257, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914111807278, "dur":710794, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/gvwjalduzcsj.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914112518102, "dur":11524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/gt9ys4dmjbfs.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914112529634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914112529647, "dur":742395, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/gt9ys4dmjbfs.o" }}
+,{ "pid":12345, "tid":5, "ts":1707914113272073, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"7z Library/Bee/artifacts/WebGL/webgl.data.unmarked" }}
+,{ "pid":12345, "tid":5, "ts":1707914113272093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914113272132, "dur":380307, "ph":"X", "name": "7z",  "args": { "detail":"Library/Bee/artifacts/WebGL/webgl.data.unmarked" }}
+,{ "pid":12345, "tid":5, "ts":1707914113652445, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GzipMarker F:/unity/UFO ESCAPE/Build/UFO ESCAPE.data.gz" }}
+,{ "pid":12345, "tid":5, "ts":1707914113652485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707914113652505, "dur":132677, "ph":"X", "name": "GzipMarker",  "args": { "detail":"F:/unity/UFO ESCAPE/Build/UFO ESCAPE.data.gz" }}
+,{ "pid":12345, "tid":5, "ts":1707914113785242, "dur":4352492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914090161455, "dur":467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914090161926, "dur":501, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914090162427, "dur":6973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914090169406, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj36.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1707914090169415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914090183518, "dur":177, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj36.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1707914090183696, "dur":688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914090184385, "dur":200386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1nf8xf9cwe5l.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914090384780, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914090384791, "dur":2427902, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1nf8xf9cwe5l.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914092812723, "dur":76999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/d23ko2rnz0ve.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914092889731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914092889743, "dur":1942529, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/d23ko2rnz0ve.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914094832290, "dur":23556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xmlgocv34sra.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914094855853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914094855863, "dur":2191275, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xmlgocv34sra.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914097047170, "dur":123747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z5p8xeo0z70s.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914097170925, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914097170937, "dur":2274041, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z5p8xeo0z70s.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914099445002, "dur":166518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/27blhqlcxnpy.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914099611529, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914099611543, "dur":2325277, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/27blhqlcxnpy.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914101936842, "dur":12841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wz3hynsrv9h5.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914101949691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914101949705, "dur":662407, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wz3hynsrv9h5.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914102612148, "dur":227294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/33qhevfkc5k5.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914102839451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914102839463, "dur":2098074, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/33qhevfkc5k5.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914104937557, "dur":20919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mblay3to7p1q.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914104958485, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914104958500, "dur":608428, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mblay3to7p1q.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914105566959, "dur":11867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/98ofses57wbc.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914105578866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914105578877, "dur":579362, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/98ofses57wbc.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914106158270, "dur":66035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/782enctje21i.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914106224316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914106224328, "dur":2094258, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/782enctje21i.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914108318614, "dur":62620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/p49wtuxlv42v.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914108381245, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914108381261, "dur":599090, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/p49wtuxlv42v.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914108980374, "dur":20209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lytbxbs75peu.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914109000595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914109000606, "dur":1521388, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lytbxbs75peu.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914110522029, "dur":12476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/rqtxoy66jgcf.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914110534515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914110534533, "dur":855390, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/rqtxoy66jgcf.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914111389957, "dur":1493750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/rhs0u9bvyvee.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914112883717, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707914112883752, "dur":1619170, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/rhs0u9bvyvee.o" }}
+,{ "pid":12345, "tid":6, "ts":1707914114502941, "dur":3634797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914090161540, "dur":516, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914090162060, "dur":1064, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914090163124, "dur":6294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914090169419, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1707914090169423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914090183403, "dur":163, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1707914090183567, "dur":880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914090184448, "dur":677571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1e9rcnhi4pr4.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914090862027, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914090862039, "dur":3255841, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/1e9rcnhi4pr4.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914094117898, "dur":79306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zewudyw5f1br.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914094197220, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914094197240, "dur":1744318, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zewudyw5f1br.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914095941590, "dur":86210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lccgfa863vgx.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914096027807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914096027817, "dur":669815, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lccgfa863vgx.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914096697653, "dur":57718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5hluti7j5vro.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914096755379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914096755390, "dur":1396322, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5hluti7j5vro.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914098151737, "dur":66066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/y46gef3yd7zs.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914098217812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914098217862, "dur":1260515, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/y46gef3yd7zs.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914099478396, "dur":139706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wmfqw6pw3rky.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914099618111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914099618124, "dur":3278805, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wmfqw6pw3rky.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914102896955, "dur":24310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/88hmdytp1uxb.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914102921272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914102921283, "dur":1278117, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/88hmdytp1uxb.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914104199429, "dur":73729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/h6kd17lzzwk9.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914104273170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914104273182, "dur":1729695, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/h6kd17lzzwk9.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914106002905, "dur":21281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xkv83z1k150c.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914106024194, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914106024207, "dur":1280702, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xkv83z1k150c.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914107304937, "dur":18150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/kvhdomdfed61.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914107323095, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914107323111, "dur":1535673, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/kvhdomdfed61.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914108858817, "dur":115618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/q8zracvpzq1u.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914108974446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914108974458, "dur":660608, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/q8zracvpzq1u.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914109635086, "dur":182373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/npp983wl3al0.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914109817468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914109817479, "dur":668743, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/npp983wl3al0.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914110486251, "dur":56884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/otc5zw7o2pdf.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914110543147, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914110543166, "dur":2000471, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/otc5zw7o2pdf.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914112543662, "dur":11937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/5zo7l87mxyd7.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914112555608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707914112555632, "dur":839553, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/5zo7l87mxyd7.o" }}
+,{ "pid":12345, "tid":7, "ts":1707914113395226, "dur":4742578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090161529, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090162051, "dur":979, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090163030, "dur":6385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090169416, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y3.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090169421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090170663, "dur":503, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/fpj4ff9x3j9y3.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090171168, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/qweo88qppru00.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090171172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090171263, "dur":815, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/qweo88qppru00.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090172079, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xgbn0slqlay90.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090172082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090172088, "dur":701, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xgbn0slqlay90.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090172790, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj32.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090172794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090172798, "dur":336, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj32.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090173135, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8nltbt5faf5u0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090173139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090173143, "dur":429, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8nltbt5faf5u0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090173573, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q2.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090173584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090173590, "dur":426, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q2.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090174018, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o1.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090174021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090174026, "dur":485, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o1.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090174512, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vogn6gx1ybbr0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090174516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090174541, "dur":623, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vogn6gx1ybbr0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175167, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg2.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175176, "dur":357, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg2.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175535, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np1.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175542, "dur":375, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np1.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175918, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5uccr06ee9s60.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090175925, "dur":362, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5uccr06ee9s60.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090176288, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ejfogmm4bfap0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090176291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090176302, "dur":467, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ejfogmm4bfap0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090176771, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/2l5wzv5mt8mu0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090176774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090176778, "dur":430, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/2l5wzv5mt8mu0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1707914090177209, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info" }}
+,{ "pid":12345, "tid":8, "ts":1707914090177213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090177597, "dur":938, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info" }}
+,{ "pid":12345, "tid":8, "ts":1707914090178537, "dur":8217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data" }}
+,{ "pid":12345, "tid":8, "ts":1707914090186760, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090186774, "dur":376244, "ph":"X", "name": "Assemble",  "args": { "detail":"WebGL Data Library/Bee/artifacts/WebGL/webgl.data" }}
+,{ "pid":12345, "tid":8, "ts":1707914090563206, "dur":262515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0hco7lm4wq6z.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914090825726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914090825736, "dur":4054092, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0hco7lm4wq6z.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914094879860, "dur":22737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/uqrir4l2w2ga.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914094902604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914094902613, "dur":1334245, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/uqrir4l2w2ga.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914096236890, "dur":134022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/00bv67frog9o.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914096370922, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914096370974, "dur":2359542, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/00bv67frog9o.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914098730541, "dur":37482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/9unxdalynx0k.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914098768035, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914098768051, "dur":718268, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/9unxdalynx0k.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914099486361, "dur":19915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/pm107exxbl5t.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914099506283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914099506293, "dur":1795493, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/pm107exxbl5t.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914101301812, "dur":48372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/gu27n1d9mxh8.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914101350191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914101350201, "dur":1478218, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/gu27n1d9mxh8.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914102828445, "dur":132602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5p5ph9jiqq6m.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914102961055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914102961067, "dur":3924372, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/5p5ph9jiqq6m.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914106885457, "dur":234235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/88f8ihimm6mh.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914107119702, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914107119716, "dur":4786195, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/88f8ihimm6mh.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914111905931, "dur":27366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/xf5irpoli61k.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914111933306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914111933318, "dur":1295161, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/xf5irpoli61k.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914113228523, "dur":13938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/e7dnujezyy8u.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914113242469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707914113242493, "dur":568215, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/e7dnujezyy8u.o" }}
+,{ "pid":12345, "tid":8, "ts":1707914113810733, "dur":4327071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090161564, "dur":509, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090162077, "dur":1369, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090163446, "dur":5960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090169407, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mc887ksmy4ma0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090169415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090170776, "dur":478, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mc887ksmy4ma0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090171256, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mw78xqn8ng7g0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090171260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090171264, "dur":751, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mw78xqn8ng7g0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090172017, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":9, "ts":1707914090172020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090172524, "dur":357, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":9, "ts":1707914090172883, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj31.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090172887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090172891, "dur":292, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj31.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173185, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c5gkifi6xrzj1.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173192, "dur":376, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c5gkifi6xrzj1.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173569, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q3.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173577, "dur":324, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q3.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173902, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o2.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090173910, "dur":468, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o2.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090174379, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/j6hko58fkaf50.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090174383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090174387, "dur":357, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/j6hko58fkaf50.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090174745, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/2lsi6fa0w7zi0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090174749, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090174754, "dur":571, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/2lsi6fa0w7zi0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090175327, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np2.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090175331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090175335, "dur":585, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np2.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090175921, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/93v7uvc06mws0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090175925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090175947, "dur":399, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/93v7uvc06mws0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090176347, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/gueyux2pyygv0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090176351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090176356, "dur":410, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/gueyux2pyygv0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090176767, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ynxh4pahdzr80.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090176770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090176774, "dur":429, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ynxh4pahdzr80.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090177205, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090177230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090177573, "dur":906, "ph":"X", "name": "WriteResponseFile",  "args": { "detail":"Library/Bee/artifacts/rsp/8995565923215908413.rsp" }}
+,{ "pid":12345, "tid":9, "ts":1707914090178481, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UFO ESCAPE.framework.js.gz_3sh5.info" }}
+,{ "pid":12345, "tid":9, "ts":1707914090178485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090178512, "dur":440, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UFO ESCAPE.framework.js.gz_3sh5.info" }}
+,{ "pid":12345, "tid":9, "ts":1707914090178954, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/progress-bar-full-light.png" }}
+,{ "pid":12345, "tid":9, "ts":1707914090179093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090179098, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/progress-bar-full-light.png" }}
+,{ "pid":12345, "tid":9, "ts":1707914090181666, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":9, "ts":1707914090181713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090181719, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":9, "ts":1707914090182877, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/unity/UFO ESCAPE/TemplateData/fullscreen-button.png" }}
+,{ "pid":12345, "tid":9, "ts":1707914090182911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090182917, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/fullscreen-button.png" }}
+,{ "pid":12345, "tid":9, "ts":1707914090183502, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"PreprocessJS F:/unity/UFO ESCAPE/Build/UFO ESCAPE.loader.js" }}
+,{ "pid":12345, "tid":9, "ts":1707914090183549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914090183691, "dur":1578216, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"F:/unity/UFO ESCAPE/Build/UFO ESCAPE.loader.js" }}
+,{ "pid":12345, "tid":9, "ts":1707914091761945, "dur":170649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/uvx52c4wula4.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914091932601, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914091932615, "dur":2187182, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/uvx52c4wula4.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914094119821, "dur":54477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/o0nwowjg40nr.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914094174309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914094174320, "dur":1435835, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/o0nwowjg40nr.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914095610171, "dur":167051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/yvy9afje89aa.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914095777229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914095777240, "dur":2457550, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/yvy9afje89aa.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914098234809, "dur":135291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/d4e524vlisss.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914098370109, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914098370125, "dur":1515853, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/d4e524vlisss.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914099885996, "dur":14331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/e61aw869p99d.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914099900333, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914099900345, "dur":920474, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/e61aw869p99d.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914100820852, "dur":20347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/bepvdhx6njap.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914100841206, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914100841218, "dur":706708, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/bepvdhx6njap.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914101547955, "dur":16931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/jqbxut0vy1t6.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914101564897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914101564911, "dur":1291579, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/jqbxut0vy1t6.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914102856544, "dur":51670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zpsi2g9c7ngm.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914102908257, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914102908269, "dur":1323987, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zpsi2g9c7ngm.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914104232279, "dur":71364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/czczqjhhz1fq.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914104303651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914104303662, "dur":2701833, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/czczqjhhz1fq.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914107005514, "dur":34401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xmsjsbfzbw5w.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914107039924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707914107039937, "dur":6235803, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/xmsjsbfzbw5w.o" }}
+,{ "pid":12345, "tid":9, "ts":1707914113275756, "dur":4861960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914090161427, "dur":482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914090161918, "dur":7475, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914090169406, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/emscripten/dvoju/wrapper_emcc.bat" }}
+,{ "pid":12345, "tid":10, "ts":1707914090169415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914090184038, "dur":311, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/emscripten/dvoju/wrapper_emcc.bat" }}
+,{ "pid":12345, "tid":10, "ts":1707914090184380, "dur":200463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/7uei3xhla70g.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914090384858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914090384895, "dur":3129312, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/7uei3xhla70g.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914093514244, "dur":99736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/it1xd2927f02.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914093613986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914093613996, "dur":1044175, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/it1xd2927f02.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914094658198, "dur":22331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ky10klp8uppa.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914094680536, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914094680548, "dur":1064423, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/ky10klp8uppa.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914095745003, "dur":85348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/znkpetnayu9x.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914095830358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914095830369, "dur":2807885, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/znkpetnayu9x.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914098638273, "dur":159494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/47irw5b0wjgk.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914098797774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914098797786, "dur":1896128, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/47irw5b0wjgk.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914100693936, "dur":34905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c0n4bygeclap.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914100728848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914100728858, "dur":1796685, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c0n4bygeclap.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914102525587, "dur":12707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/f9jbpgnc8t65.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914102538300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914102538310, "dur":672916, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/f9jbpgnc8t65.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914103211255, "dur":51972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/u199tkk7py0j.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914103263235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914103263246, "dur":660871, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/u199tkk7py0j.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914103924139, "dur":82434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/gle3paqrvgc9.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914104006582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914104006594, "dur":2598745, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/gle3paqrvgc9.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914106605362, "dur":128900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wyz45fbue6xh.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914106734270, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914106734284, "dur":573530, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wyz45fbue6xh.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914107307833, "dur":100247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zl6mpfk5fb51.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914107408086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914107408096, "dur":1678146, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zl6mpfk5fb51.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914109086264, "dur":24331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8tbmtqx4cd2u.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914109110602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707914109110613, "dur":4303239, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8tbmtqx4cd2u.o" }}
+,{ "pid":12345, "tid":10, "ts":1707914113413878, "dur":4723879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090161603, "dur":497, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090162103, "dur":1809, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090163912, "dur":5491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090169416, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/l85p6nodepck0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090169421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090170677, "dur":506, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/l85p6nodepck0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090171184, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t3n28qvn487u2.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090171188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090171251, "dur":602, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t3n28qvn487u2.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090171854, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":11, "ts":1707914090171872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090172152, "dur":472, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WebGL/bdwgc/master_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":11, "ts":1707914090172627, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj34.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090172631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090172635, "dur":325, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj34.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090172961, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj30.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090172965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090172969, "dur":343, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0o85nja76oj30.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090173313, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c5gkifi6xrzj0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090173316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090173320, "dur":336, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/c5gkifi6xrzj0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090173658, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090173661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090173664, "dur":520, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dc2vfncd4x3q0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090174185, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090174189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090174192, "dur":355, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/lgfoqrhane8o0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090174548, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t3n28qvn487u0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090174552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090174556, "dur":619, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t3n28qvn487u0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090175177, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg1.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090175182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090175186, "dur":352, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/0kqm11i3y4jg1.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090175540, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090175552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090175557, "dur":535, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/iwz1vy9w17np0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090176093, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/41lcy0v00ida1.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090176096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090176100, "dur":449, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/41lcy0v00ida1.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090176550, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/luhm6qjm1rra0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090176554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090176558, "dur":444, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/luhm6qjm1rra0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090177004, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/as7q4npco7t32.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090177009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090177014, "dur":260, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/as7q4npco7t32.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1707914090177275, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info" }}
+,{ "pid":12345, "tid":11, "ts":1707914090177278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090177606, "dur":863, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info" }}
+,{ "pid":12345, "tid":11, "ts":1707914090178472, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UFO ESCAPE.wasm.gz_oxx0.info" }}
+,{ "pid":12345, "tid":11, "ts":1707914090178477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090178503, "dur":431, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UFO ESCAPE.wasm.gz_oxx0.info" }}
+,{ "pid":12345, "tid":11, "ts":1707914090178936, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"PreprocessJS F:/unity/UFO ESCAPE/TemplateData/style.css" }}
+,{ "pid":12345, "tid":11, "ts":1707914090178958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090178969, "dur":168907, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"F:/unity/UFO ESCAPE/TemplateData/style.css" }}
+,{ "pid":12345, "tid":11, "ts":1707914090347899, "dur":469477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t1rx7wl2xt64.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914090817383, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914090817394, "dur":1614617, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/t1rx7wl2xt64.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914092432031, "dur":7364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/01ijvqzfk59e.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914092439400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914092439408, "dur":516402, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/01ijvqzfk59e.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914092955841, "dur":10600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z5rtfxizfo3e.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914092966450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914092966464, "dur":1150772, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/z5rtfxizfo3e.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914094117267, "dur":92638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zuj84r0kq297.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914094209914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914094209926, "dur":2416827, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zuj84r0kq297.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914096626772, "dur":49793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zfj1s4830tmo.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914096676574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914096676586, "dur":742998, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/zfj1s4830tmo.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914097419602, "dur":225578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/26u7f1leuaqs.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914097645190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914097645202, "dur":6916773, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/26u7f1leuaqs.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914104561992, "dur":125000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/b0mwt2jcmn9q.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914104687001, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914104687013, "dur":3968458, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/b0mwt2jcmn9q.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914108655496, "dur":41073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8b7fwkdqmfuu.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914108696576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914108696615, "dur":2430153, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/8b7fwkdqmfuu.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914111126799, "dur":32361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vjb0u0mdq98f.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914111159167, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914111159180, "dur":594984, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vjb0u0mdq98f.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914111754198, "dur":10369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/3c9vg2u8llre.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914111764578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914111764594, "dur":645998, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/3c9vg2u8llre.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914112410626, "dur":13024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/75zwcoo08fg8.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914112423659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914112423673, "dur":703832, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/75zwcoo08fg8.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914113127537, "dur":12593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/miqufr4sf0i1.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914113140141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707914113140160, "dur":552884, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/miqufr4sf0i1.o" }}
+,{ "pid":12345, "tid":11, "ts":1707914113693064, "dur":4444735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914090161666, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914090162117, "dur":7280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914090169406, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/emscripten/y6fhk/wrapper_emar.bat" }}
+,{ "pid":12345, "tid":12, "ts":1707914090169415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914090183984, "dur":251, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/emscripten/y6fhk/wrapper_emar.bat" }}
+,{ "pid":12345, "tid":12, "ts":1707914090184240, "dur":143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914090184384, "dur":206024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wwy37yao240g.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914090390416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914090390428, "dur":2756287, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/wwy37yao240g.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914093146744, "dur":21766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/36uc9fn5s6q2.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914093168518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914093168530, "dur":743885, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/36uc9fn5s6q2.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914093912446, "dur":168766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dbofqspr6xy7.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914094081224, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914094081362, "dur":2233940, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dbofqspr6xy7.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914096315321, "dur":120764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/y5and8tc137o.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914096436092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914096436103, "dur":4709820, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/y5and8tc137o.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914101145942, "dur":22365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/r1kagl87t67p.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914101168314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914101168331, "dur":668572, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/r1kagl87t67p.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914101836943, "dur":23897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/boc0yx87fkr5.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914101860846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914101860857, "dur":1734311, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/boc0yx87fkr5.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914103595197, "dur":44618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dsfhyn3g877j.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914103639826, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914103639840, "dur":2640659, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/dsfhyn3g877j.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914106280519, "dur":21138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mhxa2cjlu9ei.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914106301664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914106301676, "dur":1308712, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/mhxa2cjlu9ei.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914107610413, "dur":14139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/n7e5xkoqpa93.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914107624563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914107624577, "dur":653448, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/n7e5xkoqpa93.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914108278062, "dur":63328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/j4olriovrws3.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914108341397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914108341408, "dur":1987531, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/j4olriovrws3.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914110328968, "dur":86787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vcor96kacuuf.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914110415765, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914110415779, "dur":2233660, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/il2cpp/master_WebGL_wasm/vcor96kacuuf.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914112649459, "dur":9355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/rndmangl13jm.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914112658822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707914112658833, "dur":748671, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/zlib/master_WebGL_wasm/rndmangl13jm.o" }}
+,{ "pid":12345, "tid":12, "ts":1707914113407534, "dur":4730232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707914118147255, "dur":1938, "ph":"X", "name": "ProfilerWriteOutput" }
+,
